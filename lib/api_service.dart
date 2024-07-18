@@ -11,7 +11,7 @@ class ApiService {
         'https://api.forgeai.com/v1/apps/666811571fdb5301fdc33434/view/run');
     final headers = {
       'Content-Type': 'application/json',
-      'x-api-key': 'sk_5oN0O3vZhTRwqt_dRYGut50qMipudNVXAvCpJIsI11I'
+      'x-api-key': 'YOUR_API_KEY'
     };
     final body = jsonEncode({
       "user_inputs": {
